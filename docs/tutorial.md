@@ -634,10 +634,10 @@ sc.pl.spatial(
 
 ## 16. H/L or Alpha/Beta Spatial Pairing
 
-If you have an alignment table with `x`, `y`, and `cloneId`, you can test spatial pairing between BCR heavy/light chains or TCR beta/alpha chains. The current function name in the source code is `XCR_paring`.
+If you have an alignment table with `x`, `y`, and `cloneId`, you can test spatial pairing between BCR heavy/light chains or TCR beta/alpha chains.
 
 ```python
-pair_df = spaxcr.tl.XCR_paring(
+pair_df = spaxcr.tl.XCR_pairing(
     adata,
     alignment=alignment_df,
     receptor_type="BCR",

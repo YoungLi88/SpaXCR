@@ -12,7 +12,8 @@ sys.path.insert(0, str(ROOT_DIR))
 project = "spaxcr"
 author = "spaxcr contributors"
 copyright = "2026, spaxcr contributors"
-release = "0.1.0"
+version = "0.1.1"
+release = "0.1.1"
 
 extensions = [
     "myst_parser",

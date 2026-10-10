@@ -758,7 +758,7 @@ def spatial_pairing(
     return result
 
 
-def XCR_paring(
+def XCR_pairing(
     adata,
     alignment,
     receptor_type='BCR',
@@ -769,7 +769,7 @@ def XCR_paring(
     chunksize=None,
     stat=True,
     min_observed=2,
-    progress_desc="paring"
+    progress_desc="pairing"
 ):
     import os
     import pandas as pd

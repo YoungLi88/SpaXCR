@@ -8,7 +8,7 @@ README = (Path(__file__).parent / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="spaxcr",
-    version="0.1.0",
+    version="0.1.1",
     description="SpaXCR: a toolkit for spatial single-cell TCR/BCR repertoire analysis",
     long_description=README,
     long_description_content_type="text/markdown",

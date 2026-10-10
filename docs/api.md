@@ -407,10 +407,10 @@ Returns:
 
 - A `DataFrame` with columns such as `name_a`, `name_b`, `observed`, `expected`, `std`, `p_value`, `z_score`, `n_a`, `n_b`, and `adjust_p`.
 
-### `spaxcr.tl.XCR_paring`
+### `spaxcr.tl.XCR_pairing`
 
 ```python
-spaxcr.tl.XCR_paring(
+spaxcr.tl.XCR_pairing(
     adata,
     alignment,
     receptor_type="BCR",
@@ -421,11 +421,11 @@ spaxcr.tl.XCR_paring(
     chunksize=None,
     stat=True,
     min_observed=2,
-    progress_desc="paring",
+    progress_desc="pairing",
 )
 ```
 
-Run spatial pairing for BCR heavy/light chains or TCR beta/alpha chains. The function name is spelled `XCR_paring` in the current source code.
+Run spatial pairing for BCR heavy/light chains or TCR beta/alpha chains.
 
 Parameters:
 
