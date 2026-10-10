@@ -1,0 +1,27 @@
+:root {
+  --spaxcr-accent: #2474a6;
+}
+
+.wy-nav-content {
+  max-width: 1040px;
+}
+
+.rst-content code.literal,
+.rst-content tt.literal {
+  color: #1f5f87;
+}
+
+.rst-content a {
+  color: var(--spaxcr-accent);
+}
+
+.rst-content h1,
+.rst-content h2,
+.rst-content h3 {
+  font-weight: 650;
+}
+
+.rst-content pre.literal-block,
+.rst-content div[class^="highlight"] {
+  border-radius: 4px;
+}

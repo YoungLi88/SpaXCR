@@ -1,6 +1,14 @@
 # SpaXCR
 
+[![Documentation Status](https://readthedocs.org/projects/spaxcr/badge/?version=latest)](https://spaxcr.readthedocs.io/en/latest/)
+
 SpaXCR is a toolkit for spatial single-cell TCR/BCR repertoire analysis.
+
+## Documentation
+
+The full documentation, including tutorials and API reference, is hosted on Read the Docs:
+
+- [SpaXCR documentation](https://spaxcr.readthedocs.io/en/latest/)
 
 ## Installation
 
