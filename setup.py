@@ -15,6 +15,8 @@ setup(
     author="liuyihhha",
     author_email="liuyi212@mails.ucas.ac.cn",
     url="https://github.com/YoungLi88/SpaXCR",
+    license="MIT",
+    license_files=["LICENSE"],
     python_requires=">=3.8",
     install_requires=[
         "anndata",
